@@ -179,7 +179,7 @@ Beispiel
   
 Berechnungen
 ============
-(a) :math:`u\cdot(v\cdotw) = (u\cdotv)\cdotw`
+(a) :math:`u\cdot(v\cdot w) = (u\cdotv)\cdot w`
 (b) :math:`|x\cdoty| = |x| \cdot |y|`
 (c) :math:`x\cdot\epsilon = \epsilon\cdotx = x`
   
