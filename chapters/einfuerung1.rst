@@ -116,7 +116,7 @@ Genaue Beschreibung der Ein- und Ausgabe eines Automaten.
 
 Definition
 **********
-**Alphabet** - eine endliche, nicht leere Menge von **Symbolen**(Buchstaben)
+**Alphabet** - eine endliche, nicht leere Menge von **Symbolen** (Buchstaben)
 
 Beispiel
 ~~~~~~~~

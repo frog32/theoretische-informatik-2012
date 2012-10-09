@@ -54,4 +54,36 @@ Sei :math:`w \in \sigma, q \in Q`. Dann definieren wir
 
 **Antwort:** DEAs und NEAs sind äquivalent.
 
-..math:: \hat{\delta}(q,w)= \bigcup _{i=1} ^{k} {\delta(p_i,a)}
+**Ziel:** Automatische Umwandlung von NEAs in DEAs:
+
+**Teilmengenkonstruktion** (Potenzenmengenkonstruktion)
+
+**Idee:** Zustände des DEA sind Mengen erreichbarer Zustände des NEA.
+
+**Formel:** Sei :math:`N=(Q_N, \sigma, \delta_N, q_0, F_N)` ein NEA. Konstruiere äquivalenten DEA :math:`D=(Q_D, \sigma, \delta_D, \{q_0\}, F_D)` mit
+
+* :math:`Q_D = 2^{Q_N}`
+* :math:`F_D = \{S \leq Q_N | S \cap F \neq \varnothing\}`
+* :math:`\delta_D(S,a) = \bigcup _{p \in S} \delta_N (p,a)` für :math:`S \in Q_D, a \in \sigma`
+
+**Beispiel:** (von vorher)
+
+Konstruktion des äquivalenten DEAs als Übergangstabelle.
+
+..image:: 1_10.jpg
+
+als graphische Darstellung:
+
+..image:: 1_11.jpg
+
+**Ein ungünstiger Fall für die Teilmengenkonstruktion:**
+
+:math:`L_n = \{w \in \{0,1\} | \text{Das n-te letzte Zeichen von w ist eine 1}\}`
+
+:math:`= \{w \in \{0,1\} | \text{w=x1y mit x} \in \{0,1\}^* \}`
+
+Aber **jeder** DEA für :math:`L_n` brauch mindestens :math:`2^n` Zustände, weil der DEA sich an die letzten n gelesenen Symbole erinnern muss, da er nicht weiss wann das Wortende kommt.
+
+:math:`\rightarrow 2^n` verschiedene Teilwörter müssen unterschieden werden
+
+:math:`\rightarrow 2^n` Zustände nötig
