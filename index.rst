@@ -17,6 +17,11 @@ Contents:
    chapters/nichtdeterministische_ea
    chapters/nea_mit_epsilon_uebergaengen
    chapters/regulaere_ausdruecke
+   chapters/regulaere_sprachen
+   chapters/nichtregularitaet
+   chapters/verallgemeinerung
+   chapters/regulaere_grammatiken
+   chapters/kontextfeie_grammatiken
 
 Indices and tables
 ==================
