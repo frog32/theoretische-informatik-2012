@@ -154,3 +154,26 @@ Produktive Nichtterminale in G': A, S
 erhalten Grammatik :math:`G'' = (\{a\}, \{S,A\}, P', S)` mit :math:`P'' = \{ S \rightarrow A, A \rightarrow Aa, A \rightarrow a \}`
 
 **Definition:** Eine kontextfreie Grammatik :math:`G` heisst **reduziert**, falls sie keine unproduktiven und keine nicht erreichbaren Symbole enthält.
+
+**Elimination von Kettenregeln** :math:`A \rightarrow B`
+
+1. Bestimme für jedes Nichtterminal :math:`A` die Menge:
+
+  :math:`K(A) = \{D \in N | A \overset{*}{\Rightarrow} D \}`
+  
+  aller Nichtterminale, die in :math:`G` aus :math:`A` (nur mit Kettenregeln) abgeleitet werden können.
+  
+  iterativ Berechnen: :math:`K(A) := \{A\}`
+  
+  :math:`K(A) := K(A) \cup \{ x \in N | \text{existiert } C \in K(A) \text{ mit } C \rightarrow \in P \}`
+  
+2. Für jedes :math:`X \in K(A)` und jede Regel :math:`X \rightarrow \alpha`, die keine Kettenregel ist, füge die Regel :math:`A \rightarrow \alpha` zu :math:`P'` hinzu und entferne alle Kettenregeln.
+
+**Beispiel:** :math:`G = (\{a,b,c,d\}, \{F,S\}, P, S)` wobei :math:`P=\{S \rightarrow F, F \rightarrow a, F \rightarrow bF, F \rightarrow d, F \rightarrow c\}`
+
+1. :math:`K(S) = \{S, F\}`
+
+  :math:`K(F) ) = \{F\}`
+
+2. :math:`P' = \{ S \rightarrow a, S \rightarrow bF, S \rightarrow d, S \rightarrow c, F \rightarrow a, F \rightarrow bF, F \rightarrow d, F \rightarrow c \}`
+
