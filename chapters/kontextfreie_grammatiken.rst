@@ -23,9 +23,9 @@ Eine **kontextfreie Grammatik** :math:`G` wird beschrieben durch :math:`G=(\Sigm
 
 **Definition** Eine Sprache :math:`L` heisst Kontextfrei, wenn es eine Kontextfreie Grammatik dafür gibt mit :math:`L= L(G)`.
 
-:math:`\mathit{L}_{CF} = \text{Menge aller ktxf. Sprachen}`
+:math:`\mathcal{L}_{CF} = \text{Menge aller ktxf. Sprachen}`
 
-Bemerkung: :math:`\mathit{L}_{REG} \subseteq \mathit{L}_{CF}`
+Bemerkung: :math:`\mathcal{L}_{REG} \subseteq \mathit{L}_{CF}`
 
 **Beweis:** Jede reguläre Grammatik ist auch eine kontextfreie Grammatik.
 

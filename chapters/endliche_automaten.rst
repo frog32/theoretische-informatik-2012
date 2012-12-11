@@ -84,7 +84,7 @@ Anschaulich: :math:`\hat{\delta} (q,w)` bestimmt, in welchem Zustand A endet, we
 
 (w wird von A akzepiert)
 
-**Definition:** :math:`\textit{L}(DEA)=\{L(A)| \text{A ist ein DEA}\}`
+**Definition:** :math:`\mathcal{L}(DEA)=\{L(A)| \text{A ist ein DEA}\}`
 
 ist die Klasse der Sprachen, die von DEAs akzeptiert werden. Man nennt sie die **Klasse der regulären Sprachen** und :math:`L \in \textit{L}(DEA)` wird **regulär** genannt.
 

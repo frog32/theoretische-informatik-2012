@@ -62,7 +62,7 @@ Zwei Grammatiken :math:`G_1` und :math:`G_2` heissen äquivalent, falls :math:`L
 
 :math:`0111 \notin L(G)`
 
-**Definition:** :math:`\textit{L}_{rlin} = \left\{ L | \text{es ex. eine rechtslin. Gr mit} L=L(G)\right\}`
+**Definition:** :math:`\mathcal{L}_{rlin} = \left\{ L | \text{es ex. eine rechtslin. Gr mit} L=L(G)\right\}`
 
 Vereinfachung rechtslinearer Grammatiken
 
