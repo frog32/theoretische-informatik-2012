@@ -22,6 +22,12 @@ Contents:
    chapters/verallgemeinerung
    chapters/regulaere_grammatiken
    chapters/kontextfeie_grammatiken
+   chapters/chomsky_normalform
+   chapters/keller_automaten
+   chapters/turingmaschinen
+   chapters/berechenbarkeit
+   chapters/asymptotische_komplexitaetsmessung
+   chapters/np
 
 Indices and tables
 ==================
